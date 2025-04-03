@@ -4,10 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" consent="width=device-width, initial-scale=0.1">
+    <a href="style.css"> <link rel="stylesheet" href="style.css" /> </a>
     <title>Contact</title>
 </head>
 <body>
     <header>
+        <img src="https://i.pinimg.com/474x/2f/a4/95/2fa49556b1df8e761f983374fd67d957.jpg" alt="MyLogo" width="150" height="100" />
         <nav>
             <ul>
                 <li>
@@ -23,11 +25,31 @@
         </nav>
     </header>
     <main>
-        <h2> Contact </h2>
+        <section id="contact-form" class="Form">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="Name"> Full Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="10" width=" 100"></textarea><br><br>
+               <div class="button-container"> 
+                <input type="submit" value="Send"><br><br>
+                <input type="reset" value="Reset"><br><br>
+               </div>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <h2> Contact Us </h2>
         <a href="https://www.facebook.com/zeezorloocore.mzinyati/"><img src="facebook.png" alt="Facebook" width="30"></a>
         <a href="https://www.instagram.com/lukhomz/"><img src="instagram.png" alt="Instagram" width="30"></a>
         <a href="https://www.tiktok.com/@lukho_01?is_from_webapp=1&sender_device=pc"><img src="tiktok.png" alt="TikTok" width="30"></a>
-        <p> +276 3074 7461 </p>
-    </main>
+       <br> <p>Tel: +276 3074 7461 </p>
+    </footer>
 </body>
 </html>
