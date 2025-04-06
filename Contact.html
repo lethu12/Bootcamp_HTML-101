@@ -1,55 +1,89 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" consent="width=device-width, initial-scale=0.1">
-    <a href="style.css"> <link rel="stylesheet" href="style.css" /> </a>
-    <title>Contact</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css" />
+ 
 </head>
 <body>
     <header>
-        <img src="https://i.pinimg.com/474x/2f/a4/95/2fa49556b1df8e761f983374fd67d957.jpg" alt="MyLogo" width="150" height="100" />
-        <nav>
-            <ul>
-                <li>
-                    <a href="HTML-101.html"> Home </a>
-                </li>
-                <li>
-                    <a href="AboutMe.html"> About me </a>
-                </li>
-                <li>
-                    <a href="Contact.html"> Contact Us </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="contact-form" class="Form">
-            <h2>Contact Us</h2>
+       
+        <logo class="logo"></logo>
+            <img src="Logo.png" alt="MyLogo" width="150" height="100" />
+            <nav>
+             <a href="HTML-101.html">Home</a>
+             <a href="AboutMe.html">About Me</a>
+             <a href="contact.html">Contact</a>
+          </nav>
+      </header>
+      <hr>
+<main>
+   
+  <section id="form">
+          <div class="contact-form">
+            <h2>Send a Message</h2>
             <form>
-                <label for="Name"> Full Name:</label>
-                <input type="text" id="name" name="name"><br><br>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-                
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="10" width=" 100"></textarea><br><br>
-               <div class="button-container"> 
-                <input type="submit" value="Send"><br><br>
-                <input type="reset" value="Reset"><br><br>
-               </div>
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name" required>
+              
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="subject">Subject :</label>
+                <input type="text" id="subject" name="subject" required>
+              
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              
+              <button type="submit" class="submit-button">Send</button>
             </form>
-        </section>
+      </div>
     </main>
     <hr>
     <footer>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Contact Information:</h2>
+          <div class="contact-items">
+            <div class="contact-item">
+              <i data-lucide="mail"></i>
+              <div>
+                <h3>Email</h3>
+                <p>mzinyatilukho@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i data-lucide="map-pin"></i>
+              <div>
+                <h3>Location</h3>
+                <div class="Address">
+                  <address>
+                    413 Molefe street<br>
+                    Mfihlweni section<br>
+                    Tembisa<br>
+                    1632
+                  </address>
+              </div>
+            </div>
+        </form>
+    
+    <hr>
+
+       <footer>
         <h2> Contact Us </h2>
+  <div class="socials-block">
         <a href="https://www.facebook.com/zeezorloocore.mzinyati/"><img src="facebook.png" alt="Facebook" width="30"></a>
         <a href="https://www.instagram.com/lukhomz/"><img src="instagram.png" alt="Instagram" width="30"></a>
         <a href="https://www.tiktok.com/@lukho_01?is_from_webapp=1&sender_device=pc"><img src="tiktok.png" alt="TikTok" width="30"></a>
-       <br> <p>Tel: +276 3074 7461 </p>
+      </div>
+        <br> <p>Tel: +276 3074 7461 </p>
+      
+      
+        <p>© 2025 Mzinyati Lukho. All rights reserved.</p>
+      </footer>
+    </div>
     </footer>
 </body>
 </html>

@@ -1,58 +1,70 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" consent="width=device-width, initial-scale=0.1">
-    <a href="style.css"> <link rel="stylesheet" href="style.css" /> </a>
-
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+ 
 </head>
 <body>
-    <header>
-        <img src="https://i.pinimg.com/474x/2f/a4/95/2fa49556b1df8e761f983374fd67d957.jpg" alt="MyLogo" width="150" height="100" />
+ 
+  <header>
+    <logo class="logo"></logo>
+        <img src="Logo.png" alt="MyLogo" width="150" height="100" />
+        <h1> Mzinyati Lukho Zizo</h1>
+        <p1> Portfolio </p>
         <nav>
-            <ul>
-                <li>
-                    <a href="HTML-101.html"> Home </a>
-                </li>
-                <li>
-                    <a href="AboutMe.html"> About me </a>
-                </li>
-                <li>
-                    <a href="Contact.html"> Contact Us </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-
-        <video controls width="500" height="250" controls>
+         <a href="HTML-101.html">Home</a>
+         <a href="AboutMe.html">About Me</a>
+         <a href="contact.html">Contact</a>
+      </nav>
+  </header>
+  <hr>
+  <main>
+    
+    <section id="video">
+          <video controls width="500" height="250" controls>
             <source src="Video.mp4" type="video/mp4">
             "Your browser does not support the video tag."
-        </video>
-        <nav>
-        <section id="about-me" class="Intro">
-            <h2> Mzinyati Lukho Zizo</h2>
-            <br><br>
-            <p>
-                A curious and creative individual<br> with a passion for learning and growth.<br> With a keen interest in exploring new <br> ideas and experiences, I'm always looking <br> for opportunities to expand my horizons.<br><br>When I'm not discovering new things,<br> you can find me reading, cooking, or playing music.
-            </p>
+          </video>
+    </section>
 
-            <img src="me.jpg" alt="MyPhoto" width="200" height="150">
-        </section>
-    </nav>
-        
-    </main>
-    <br /><hr>
-    <footer>
-        <p>
-            413 mofele street <br>Mfihlweni section <br>Tembisa <br>1632
-        </p>
-    <a href="https://www.facebook.com/zeezorloocore.mzinyati/"><img src="facebook.png" alt="Facebook" width="30"></a>
-    <a href="https://www.instagram.com/lukhomz/"><img src="instagram.png" alt="Instagram" width="30"></a>
-    <a href="https://www.tiktok.com/@lukho_01?is_from_webapp=1&sender_device=pc"><img src="tiktok.png" alt="TikTok" width="30"></a>
+    <section id="Intro">
+      <h2>Mzinyati Lukho Zizo</h2>
+            <div class="Intro-container">
+              <p>Hi, I'm Mzinyati Lukho Zizo,<br> a passionate and dedicated <br> individual with a love for<br> technology and creativity. </p>
+            <p>I am curious and creative individual<br> with a passion for learning and growth.<br> With a keen interest in exploring new <br> ideas and experiences, I'm always looking <br> for opportunities to expand my horizons.<br>When I'm not discovering new things you can find me:</p>
+            <ul>
+              <li>Reading</li>
+              <li>Cooking</li>
+              <li>Playing Music</li>
+              <li>Learning codes</li>
+            </ul>
+  
+           <img src="me.png" alt="MyPhoto" width="200" height="150">
+          </div>
+      
+    </section>
+  </main>
+<hr>
+ <footer>
+          <div class="Address">
+            <address>
+              413 Molefe street<br>
+              Mfihlweni section<br>
+              Tembisa<br>
+              1632
+            </address>
+            <div class="socials-block">
+              <a href="https://www.facebook.com/zeezorloocore.mzinyati/"><img src="facebook.png" alt="Facebook" width="30"></a>
+              <a href="https://www.instagram.com/lukhomz/"><img src="instagram.png" alt="Instagram" width="30"></a>
+              <a href="https://www.tiktok.com/@lukho_01?is_from_webapp=1&sender_device=pc"><img src="tiktok.png" alt="TikTok" width="30"></a>
+            </div>
     <p> +276 3074 7461 </p>
-    </footer>
+       <p>© 2025 Mzinyati Lukho. All rights reserved.</p>
+   
+         </footer> 
 </body>
-</html>`
+</html>
